@@ -1,0 +1,29 @@
+{
+  "name": "nuxt-sst",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "sst start --profile=private",
+    "build": "sst build --profile=private",
+    "deploy": "sst deploy --profile=private",
+    "remove": "sst remove --profile=private",
+    "console": "sst console --profile=private",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@serverless-stack/cli": "^1.2.26",
+    "@serverless-stack/resources": "^1.2.26",
+    "@tsconfig/node16": "^1.0.3",
+    "@types/cross-spawn": "^6.0.2",
+    "@types/fs-extra": "^9.0.13",
+    "aws-cdk-lib": "2.24.0",
+    "cross-spawn": "^7.0.3",
+    "fs-extra": "^10.1.0",
+    "typescript": "^4.7.4",
+    "vitest": "^0.15.1"
+  },
+  "workspaces": [
+    "app"
+  ]
+}
