@@ -1,5 +1,9 @@
 {
   "private": true,
+  "name": "sst-app",
+  "version": "0.0.0",
+  "author": "Chris Visser <chris@passionatepeople.io>",
+  "license": "MIT",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
