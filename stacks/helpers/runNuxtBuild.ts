@@ -23,6 +23,6 @@ export const runNuxtBuild = (sitePath: string) => {
 
   // Workaround to allow nuxt in lambda edge until preset is available. See:
   // https://github.com/unjs/nitro/pull/240
-  copyFileSync(`${sitePath}/static/wrapper.mjs`, `${sitePath}/.output/server/wrapper.mjs`);
+  copyFileSync(`stacks/helpers/wrapper.mjs`, `${sitePath}/.output/server/wrapper.mjs`);
 
 }
