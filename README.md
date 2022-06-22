@@ -25,3 +25,7 @@ To deploy simply run
 ```bash
 yarn deploy
 ```
+
+## Any requests?
+
+Feel free to request any features or fixes. My aim is to have a fully functioning NuxtStack for most of the Nuxt site scenarios and then make a PR on SST to have it as a Stack that you can use out of the box.
