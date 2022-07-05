@@ -8,7 +8,8 @@ while the server routes will be handled in AWS
 
 > This boilerplate is under active development. Right now this boilerplate 
 > works around a limitation in Nuxt3 where it doesn't have an aws-lambda-edge 
-> preset 'yet'.
+> preset 'yet'. This feature is about to be merged and can be tracked here:
+> https://github.com/unjs/nitro/pull/240
 
 ## Getting started
 
