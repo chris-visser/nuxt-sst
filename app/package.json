@@ -11,10 +11,6 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "@serverless-stack/cli": "^1.2.36",
-    "@serverless-stack/resources": "^1.2.36",
-    "aws-cdk-lib": "2.30.0",
-    "nuxt": "3.0.0-rc.4",
-    "vitest": "^0.17.0"
+    "nuxt": "3.0.0-rc.4"
   }
 }
